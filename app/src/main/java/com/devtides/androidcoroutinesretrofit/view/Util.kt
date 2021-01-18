@@ -1,4 +1,4 @@
-package com.devtides.coroutinesretrofit.view
+package com.devtides.androidcoroutinesretrofit.view
 
 import android.widget.ImageView
 import com.bumptech.glide.Glide

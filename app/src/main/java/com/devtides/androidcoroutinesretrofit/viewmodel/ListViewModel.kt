@@ -1,9 +1,7 @@
 package com.devtides.androidcoroutinesretrofit.viewmodel
 
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
-import com.devtides.androidcoroutinesretrofit.model.CountriesService
-import com.devtides.androidcoroutinesretrofit.model.Country
+import androidx.lifecycle.*
+import com.devtides.androidcoroutinesretrofit.model.*
 import kotlinx.coroutines.*
 
 class ListViewModel : ViewModel() {
