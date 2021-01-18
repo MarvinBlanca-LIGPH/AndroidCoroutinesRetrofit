@@ -28,7 +28,7 @@ class ListViewModel : ViewModel() {
 
             withContext(Dispatchers.Main) {
                 if (response.isSuccessful) {
-                    countryLoadError.value = null
+                    countryLoadError.value = ""
                     countries.value = response.body()
                     loading.value = false
                 } else {
